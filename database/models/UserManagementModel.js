@@ -16,12 +16,12 @@ module.exports = (sequelize, dataType) => {
             allowNull: false
         },
         age: {
-            type: dataType.NUMBER,
+            type: dataType.STRING,
             required: true,
             allowNull: false
         },
         status: {
-            type: dataType.TEXT,
+            type: dataType.STRING,
         }
     });
 };
